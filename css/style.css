@@ -3,7 +3,8 @@
 	height: 30px;
 	background-color: red;
 	border-radius: blue;
-	padding: 0;
+	padding: 0px;
+	margin: 0px;
 }
 
 body{
