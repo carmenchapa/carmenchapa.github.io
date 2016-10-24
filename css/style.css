@@ -1,0 +1,14 @@
+#home{
+	width: 700px;
+	height: 30px;
+	background-color: red;
+}
+
+body{
+	background-color: #FEF;
+}
+
+body
+{overflow-x:hidden;
+	font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif
+	}
