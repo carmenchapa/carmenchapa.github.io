@@ -2,7 +2,11 @@
 
 ## Front-end and Javascript developer.
 
-My site is under construction.
+This site is under construction.
+
+Checkout my digital product studio: 
+
+maieustudio.com
 
 Please don't hesitate in get in touch:
 
