@@ -4,9 +4,7 @@
 
 This site is under construction.
 
-Checkout my digital product studio: 
-
-maieustudio.com
+Checkout [maieu](https://maieustudio.com), my digital product studio: 
 
 Please don't hesitate in get in touch:
 
