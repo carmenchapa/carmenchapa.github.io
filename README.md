@@ -4,7 +4,7 @@
 
 This site is under construction.
 
-Checkout [maieu](https://maieustudio.com), my digital product studio: 
+Checkout [The Little Boat](https://thelittleboat.es), my digital product studio: 
 
 Please don't hesitate in get in touch:
 
