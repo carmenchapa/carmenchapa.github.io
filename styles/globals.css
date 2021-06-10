@@ -2,15 +2,56 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: DMSans, DM Sans, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+}
 
 * {
   box-sizing: border-box;
 }
+
+.repo {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: 'DMSans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('../public/fonts/DMSans-Regular.woff') format('woff');
+  src: local(''), url('../public/fonts/DMSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'DMSans';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''), url('../public/fonts/DMSans-Medium.woff') format('woff');
+  src: local(''), url('../public/fonts/DMSans-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'DMSans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), url('../public/fonts/DMSans-Bold.woff') format('woff');
+  src: local(''), url('../public/fonts/DMSans-Bold.woff2') format('woff2');
+}
+
+@tailwind utilities;
