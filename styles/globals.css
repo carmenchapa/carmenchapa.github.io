@@ -1,3 +1,26 @@
+@font-face {
+  font-family: 'DMSans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('../public/fonts/DMSans-Regular.woff') format('woff');
+  src: local(''), url('../public/fonts/DMSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'DMSans';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''), url('../public/fonts/DMSans-Medium.woff') format('woff');
+  src: local(''), url('../public/fonts/DMSans-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'DMSans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), url('../public/fonts/DMSans-Bold.woff') format('woff');
+  src: local(''), url('../public/fonts/DMSans-Bold.woff2') format('woff2');
+}
+
 html,
 body {
   padding: 0;
@@ -30,28 +53,4 @@ p {
 
 @tailwind base;
 @tailwind components;
-
-@font-face {
-  font-family: 'DMSans';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''), url('../public/fonts/DMSans-Regular.woff') format('woff');
-  src: local(''), url('../public/fonts/DMSans-Regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'DMSans';
-  font-style: normal;
-  font-weight: 500;
-  src: local(''), url('../public/fonts/DMSans-Medium.woff') format('woff');
-  src: local(''), url('../public/fonts/DMSans-Medium.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'DMSans';
-  font-style: normal;
-  font-weight: 700;
-  src: local(''), url('../public/fonts/DMSans-Bold.woff') format('woff');
-  src: local(''), url('../public/fonts/DMSans-Bold.woff2') format('woff2');
-}
-
 @tailwind utilities;
