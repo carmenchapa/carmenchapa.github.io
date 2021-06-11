@@ -44,7 +44,7 @@ export const ExperienceData = {
     date: 'Dec 2016 to Mar 2018',
     img: '/icons/sky.png',
     description:
-      'I worked at Sky building insite solutions and building animated Javascript banners for the web.',
+      'I worked at Sky building insite solutions and developing animated banners for the web with Javascript.',
     stack: 'Vanilla JavaScript · GreenSock · React'
   }
 }
