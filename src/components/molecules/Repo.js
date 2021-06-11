@@ -1,6 +1,6 @@
 import { Languaje, NextImage } from '../atoms'
 const Repo = ({ repo }) => (
-  <a href={repo.url}>
+  <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
     <div className="repo mr-4 mb-4 p-4 align-left flex flex-col rounded-md bg-white border border-gray-300 align-start w-60 h-32 justify-between">
       <div>
         <div className="flex flex-row justify-start space-x-2 pb-2">

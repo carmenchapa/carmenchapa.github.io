@@ -20,23 +20,9 @@ const Page = ({ children }) => {
         <div style={svgBg} className="flex justify-center items-center p-8">
           <NextImage imgSource="/memoji.png" size={400} />
         </div>
-        {/* <video
-          width={300}
-          height={300}
-          allow="autoplay"
-          autoPlay={true}
-          muted={true}
-          playsinline
-          poster="/emoji.png"
-        >
-          <source
-            src={require('../../../public/memoji-video.webm')}
-            type="video/webm"
-          />
-          <source
-            src={require('../../../public/memoji-video.mp4')}
-            type="video/mp4"
-          />
+        {/* <video width={300} height={300} allow="autoplay" autoPlay={true} muted={true} playsinline poster="/emoji.png" >
+          <source src={require('../../../public/memoji-video.webm')} type="video/webm"/>
+          <source src={require('../../../public/memoji-video.mp4')} type="video/mp4"/>
         </video> */}
         <div>
           <h1 className="font-semibold text-6xl pb-8">Hello!</h1>
@@ -44,6 +30,8 @@ const Page = ({ children }) => {
             I am Carmen Chapa, Founder and FullStack Developer at
             <a
               href="https://www.thelittleboat.es/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-blue-500 font-semibold"
             >
               {' @TheLittleBoat_'}
