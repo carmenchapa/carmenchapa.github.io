@@ -1,9 +1,12 @@
 const stack = {
-  html: { color: 'tomato', text: 'HTML' },
-  javascript: { color: 'gold', text: 'JavasScript' }
+  html: { color: 'html', text: 'HTML' },
+  javascript: { color: 'js', text: 'JavasScript' },
+  typescript: { color: 'ts', text: 'TypeScript' },
+  php: { color: 'php', text: 'php' }
 }
 
 const Languaje = ({ type }) => {
+  console.log('type', type)
   return (
     <div className="flex flex-row space-x-2">
       <div

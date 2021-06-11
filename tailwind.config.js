@@ -5,7 +5,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      colors: { tomato: 'tomato', gold: 'gold', bg: '#F9F9F9' },
+      colors: {
+        html: '#e34c26',
+        js: '#f1e05a',
+        ts: '#2b7489',
+        php: '#4F5D95',
+        bg: '#F9F9F9'
+      },
       fontFamily: {
         sans: ['DMSans', ...defaultTheme.fontFamily.sans]
       }
@@ -14,5 +20,5 @@ module.exports = {
   variants: {
     extend: {}
   },
-  plugins: []
+  plugins: [require('@tailwindcss/line-clamp')]
 }
