@@ -42,16 +42,16 @@ const Page = ({ children }) => {
           </Parragraph>
 
           <div className="flex-wrap space-x-8 lg:space-x-14 pt-8">
-            {socialArray.map((item) => (
-              <SocialLink type={item} />
+            {socialArray.map((item, i) => (
+              <SocialLink key={i} type={item} />
             ))}
           </div>
         </div>
       </section>
       <Section title="Repos">
         <div className="flex flex-row flex-wrap">
-          {data.repos?.slice(0, 4).map((item) => (
-            <Repo repo={item} />
+          {data.repos?.map((item, i) => (
+            <Repo key={i} repo={item} />
           ))}
         </div>
       </Section>
