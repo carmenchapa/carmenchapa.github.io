@@ -19,7 +19,10 @@ const Page = ({ children }) => {
   const changeLang = () => setLang(t.lang.toLowerCase())
   return (
     <div className="mx-auto w-4/5 md:w-9/12 lg:w-8/12 overflow-hidden space-y-4 ">
-      <div onClick={changeLang} className="absolute top-8 right-8 font-bold">
+      <div
+        onClick={changeLang}
+        className="absolute top-8 right-8 font-bold cursor-pointer"
+      >
         {t.lang}
       </div>
       <section className="flex flex-col md:flex-row py-16 md:py-48 items-center justify-start space-y-8 md:space-y-0 md:space-x-10">
