@@ -10,8 +10,8 @@ const experienceArray = [
 ]
 const Experience = () => (
   <div className="md:w-9/12">
-    {experienceArray.map((item) => (
-      <ExperienceItem type={item} />
+    {experienceArray.map((item, i) => (
+      <ExperienceItem key={i} type={item} />
     ))}
   </div>
 )

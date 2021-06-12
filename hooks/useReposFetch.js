@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useReducer } from 'react'
-import { getColors, getRepos } from '../api/calls'
+import { getColors, getRepos } from '../src/api/calls'
 
 const INITIAL_REPOS = {
   repos: [],
