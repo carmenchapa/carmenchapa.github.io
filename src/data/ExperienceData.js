@@ -1,7 +1,7 @@
 export const ExperienceData = {
   webflow: {
-    title: 'Webflow',
-    date: 'Jan 2021 to Jun 2021',
+    title: 'webflow.title',
+    date: 'webflow.date',
     img: '/icons/webflow.png',
     description:
       'I helped Webflow research and design team to explore new ways of interaction by developing functional prototypes.',

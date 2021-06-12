@@ -1,0 +1,56 @@
+{
+    "lang": "EN",
+    "home": {
+        "hello": "Hola!",
+        "p1": "Soy Carmen Chapa, Founder y FullStack Developer en ",
+        "tlb": "@TheLittleBoat_",
+        "p2": "Desarrollo apps móvil y desktop. Ayudo a empresas a construir mejores productos a través de software de calidad."
+    },
+    "repos": "Repos",
+    "footer": "©2021 Developed by Carmen Chapa · Powered by The Little Boat",
+    "experience": {
+        "title": "Experiencia",
+        "webflow": {
+            "title": "Webflow",
+            "date": "Ene 2021 a Jun 2021",
+            "img": "/icons/webflow.png",
+            "description": "Ayudé al equipo de diseño e investigación de Webflow a exporar nuevas formas de interacción a través del desarrollo de prototipos funcionales.",
+            "stack": "React · Vercel · React Flow"
+        },
+        "labalytics": {
+            "title": "LABalytics",
+            "date": "Nov 2020 a Ene 2021",
+            "img": "/icons/labalytics.png",
+            "description": "Ayudé a desarrollar y lanzar nuevas funcionalidades de la app móvil de LABalytics.",
+            "stack": "React Native · React Query · Scan drive license"
+        },
+        "maieu": {
+            "title": "maieu List",
+            "date": "Jul 2020 - ahora",
+            "img": "/icons/maieu.png",
+            "description": "Como parte del equipo de The Little Boat, desarrollé y lancé una versión beta de maieu List - aplicación iOS.",
+            "stack": "React Native · GraphQL · MongoDB · Redux · Expo"
+        },
+        "pepephone": {
+            "title": "Pepephone",
+            "date": "Oct 2019 a Ago 2020",
+            "img": "/icons/pepephone.png",
+            "description": "Fui parte del equipo de desarrollo de Pepephone, particularmente involucrada en el desarrollo de su aplicación móvil.",
+            "stack": "React · React Native · Redux · Jest · Crashlytics"
+        },
+        "bluebell": {
+            "title": "Bluebell",
+            "date": "Apr 2018 a Sep 2019",
+            "img": "/icons/bluebell.png",
+            "description": "Como parte del equipo de Bluebell, desarrollé desde el inicio la aplicación móvil de su producto.",
+            "stack": "React Native · Expo · MobX · Flow"
+        },
+        "sky": {
+            "title": "Sky",
+            "date": "Dec 2016 a Mar 2018",
+            "img": "/icons/sky.png",
+            "description": "Trabajé en Sky en el desarrollo de soluciones internas y creando banners animados con JavaScript",
+            "stack": "Vanilla JavaScript · GreenSock · React"
+        }
+    }
+}
