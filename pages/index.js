@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import { Footer, Page } from '../src/components/sections'
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="min-h-full flex flex-col items-center h-full bg-bg w-screen overflow-hidden ">
       <Head>
@@ -44,3 +44,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home
