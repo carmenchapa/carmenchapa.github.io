@@ -14,7 +14,7 @@
     "@next/plugin-storybook": "^10.2.3",
     "@tailwindcss/line-clamp": "^0.2.1",
     "axios": "^0.21.1",
-    "next": "11.1.0",
+    "next": "12.1.0",
     "next-videos": "1.4.0",
     "postcss-loader": "^5.3.0",
     "react": "17.0.2",
