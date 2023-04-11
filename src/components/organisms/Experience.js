@@ -1,6 +1,7 @@
 import { ExperienceItem } from '../molecules'
 
 const experienceArray = [
+  'datacamp',
   'webflow',
   'labalytics',
   'maieu',
