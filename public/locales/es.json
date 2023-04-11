@@ -9,7 +9,14 @@
     "repos": "Repos",
     "footer": "©2021 Developed by Carmen Chapa · Powered by The Little Boat",
     "experience": {
-        "title": "Experiencia",
+        "title": "Últimos projectos",
+        "datacamp": {
+            "title": "DataCamp",
+            "date": "Oct 2021 a Ago 2022",
+            "img": "/icons/datacamp.png",
+            "description": "Participé en el desarrollo de la plataforma de búsqueda de empleo y talento en análisis de datos y machine learning, DataCamp Jobs.",
+            "stack": "React · NestJS · PostgreSQL"
+        },
         "webflow": {
             "title": "Webflow",
             "date": "Ene 2021 a Jun 2021",
@@ -25,7 +32,7 @@
             "stack": "React Native · React Query · Scan drive license"
         },
         "maieu": {
-            "title": "maieu List",
+            "title": "Maieu List",
             "date": "Jul 2020 - ahora",
             "img": "/icons/maieu.png",
             "description": "Como parte del equipo de The Little Boat, desarrollé y lancé una versión beta de maieu List - aplicación iOS.",

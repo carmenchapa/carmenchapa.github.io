@@ -1,4 +1,12 @@
 export const ExperienceData = {
+  datacamp: {
+    title: 'datacamp.title',
+    date: 'datacamp.date',
+    img: '/icons/datacamp.png',
+    description:
+      'I helped DataCamp to build their Jobs platform for job seekers to find the best data jobs, and for recruiters to find what the best talent.',
+    stack: 'React · Vercel · React Flow'
+  },
   webflow: {
     title: 'webflow.title',
     date: 'webflow.date',

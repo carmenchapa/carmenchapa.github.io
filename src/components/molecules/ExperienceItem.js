@@ -10,7 +10,7 @@ const ExperienceItem = ({ type }) => {
         <NextImage alt={type} imgSource={ExperienceData[type]?.img} />
       </div>
       <div>
-        <Title text={t.experience.title} />
+        <Title text={t.experience[type]?.title} />
         <Parragraph>{t.experience[type]?.date} </Parragraph>
         <Parragraph>{t.experience[type]?.description} </Parragraph>
         <Parragraph bold>{t.experience[type]?.stack} </Parragraph>
