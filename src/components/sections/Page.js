@@ -53,7 +53,7 @@ const Page = ({ children }) => {
             {t.home.p2}
           </Parragraph>
 
-          <div className="flex-wrap space-x-8 lg:space-x-14 pt-8">
+          <div className="flex-wrap flex gap-8 lg:space-x-14 pt-8">
             {socialArray.map((item, i) => (
               <SocialLink key={i} type={item} />
             ))}
